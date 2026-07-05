@@ -1,0 +1,33 @@
+export default function AboutImage() {
+  return (
+    <div
+      className="
+            flex
+            justify-center
+            "
+    >
+      <div
+        className="
+                p-1
+                rounded-full
+                bg-gradient-to-r
+                from-cyan-400
+                to-purple-500
+                "
+      >
+        <img
+          src="/profile.png"
+          alt="Profile"
+          className="
+                    w-80
+                    h-80
+                    rounded-full
+                    object-cover
+                    border-8
+                    border-slate-900
+                    "
+        />
+      </div>
+    </div>
+  );
+}
